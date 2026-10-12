@@ -1,0 +1,108 @@
+[AHtb]
+Name=追命矛
+Tip=学习追命矛
+Researchtip="学习 |cffffcc00追命矛|r - [等级 %d]"
+Hotkey=T
+Researchhotkey=T
+
+[AHtc]
+Name=当阳喝
+Tip=学习当阳喝
+Researchtip="学习 |cffffcc00当阳喝|r - [等级 %d]"
+Hotkey=C
+Researchhotkey=C
+
+[AHbh]
+Name=怒撞
+Tip=学习怒撞
+Researchtip="学习 |cffffcc00怒撞|r - [等级 %d]"
+Researchhotkey=B
+
+[AHav]
+Name=万人敌
+Tip=学习万人敌
+Researchtip="学习 |cffffcc00万人敌|r - [等级 %d]"
+Hotkey=V
+Researchhotkey=V
+
+[AHbz]
+Name=昆仑雪暴
+Tip=学习昆仑雪暴
+Researchtip="学习 |cffffcc00昆仑雪暴|r - [等级 %d]"
+Hotkey=B
+Researchhotkey=B
+
+[AHwe]
+Name=水晶兽
+Tip=学习水晶兽
+Researchtip="学习 |cffffcc00水晶兽|r - [等级 %d]"
+Hotkey=W
+Researchhotkey=W
+
+[AHab]
+Name=吉星高照
+Tip=学习吉星高照
+Researchtip="学习 |cffffcc00吉星高照|r - [等级 %d]"
+Researchhotkey=R
+
+[AHmt]
+Name=打道回府
+Tip=学习打道回府
+Researchtip="学习 |cffffcc00打道回府|r - [等级 %d]"
+Hotkey=T
+Researchhotkey=T
+
+[AHhb]
+Name=雨露甘霖
+Tip=学习雨露甘霖
+Researchtip="学习 |cffffcc00雨露甘霖|r - [等级 %d]"
+Hotkey=T
+Researchhotkey=T
+
+[AHds]
+Name=单刀赴会
+Tip=学习单刀赴会
+Researchtip="学习 |cffffcc00单刀赴会|r - [等级 %d]"
+Hotkey=D
+Researchhotkey=D
+
+[AHad]
+Name=孙刘同盟
+Tip=学习孙刘同盟
+Researchtip="学习 |cffffcc00孙刘同盟|r - [等级 %d]"
+Researchhotkey=V
+
+[AHre]
+Name=还魂
+Tip=学习还魂
+Researchtip="学习 |cffffcc00还魂|r - [等级 %d]"
+Hotkey=R
+Researchhotkey=R
+
+[AHfs]
+Name=三昧真火
+Tip=学习三昧真火
+Researchtip="学习 |cffffcc00三昧真火|r - [等级 %d]"
+Hotkey=F
+Researchhotkey=F
+
+[AHbn]
+Name=天罡莲台
+Tip=学习天罡莲台
+Researchtip="学习 |cffffcc00天罡莲台|r - [等级 %d]"
+Hotkey=B
+Researchhotkey=B
+
+[AHdr]
+Name=摄元
+Tip=学习摄元
+Researchtip="学习 |cffffcc00摄元|r - [等级 %d]"
+Hotkey=N
+Researchhotkey=N
+
+[AHpx]
+Name=火鸦
+Tip=学习火鸦
+Researchtip="学习 |cffffcc00火鸦|r - [等级 %d]"
+Hotkey=X
+Researchhotkey=X
