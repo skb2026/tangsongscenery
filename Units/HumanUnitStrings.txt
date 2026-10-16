@@ -1,182 +1,280 @@
+﻿// ============ 人族单位 ============
+// 只改名字和正文；技能一律不定制，所以正文里点到的技能名都写官方显示名。
+// 补齐：36 段 Ubertip + 7 个缺失段 + 英雄 Awakentip/Revivetip + 施法单位 Casterupgrade*。
+
+
+// 英雄 / 猛将
 [Hmkg]
 Name=猛将
 Propernames=尉迟敬德,黑李逵,典韦,程咬金,张飞
 Tip=征募 |cffffcc00猛将|r
-Uptip=唤醒 |cffffcc00猛将|r
+Ubertip=猛将。当阳一喝退千军，万人难敌的近战英雄。
 Hotkey=M
+Uptip=唤醒 |cffffcc00猛将|r
+Awakentip=唤醒 |cffffcc00猛将|r
+Revivetip=复活 |cffffcc00猛将|r
 Description=猛将。拥有当阳喝与万人敌的强力近战英雄。
 
+// 英雄 / 主帅
 [Hamg]
 Name=主帅
 Propernames=李世民,太白老君
 Tip=征募 |cffffcc00主帅|r
-Uptip=唤醒 |cffffcc00主帅|r
+Ubertip=主帅。能起昆仑雪暴，占得吉星高照的法术英雄。
 Hotkey=A
+Uptip=唤醒 |cffffcc00主帅|r
+Awakentip=唤醒 |cffffcc00主帅|r
+Revivetip=复活 |cffffcc00主帅|r
 Description=主帅。精通昆仑雪暴与吉星高照的法术英雄。
 
+// 英雄 / 军师
 [Hpal]
 Name=军师
 Propernames=法正,郭嘉,司马懿,李世绩,鲁肃
 Tip=征募 |cffffcc00军师|r
-Uptip=唤醒 |cffffcc00军师|r
+Ubertip=军师。洒雨露甘霖续命，敢单刀赴会的辅助英雄。
 Hotkey=L
+Uptip=唤醒 |cffffcc00军师|r
+Awakentip=唤醒 |cffffcc00军师|r
+Revivetip=复活 |cffffcc00军师|r
 Description=军师。拥有雨露甘霖与单刀赴会的辅助英雄。
 
+// 英雄 / 妖王
 [Hblm]
 Name=妖王
 Propernames=哪吒,沉香,红孩儿
 Tip=征募 |cffffcc00妖王|r
-Uptip=唤醒 |cffffcc00妖王|r
+Ubertip=妖王。放三昧真火、登天罡莲台的控场英雄。
 Hotkey=B
+Uptip=唤醒 |cffffcc00妖王|r
+Awakentip=唤醒 |cffffcc00妖王|r
+Revivetip=复活 |cffffcc00妖王|r
 Description=妖王。精通三昧真火与天罡莲台的控场英雄。
 
 [hpea]
 Name=壮丁
 Tip=训练壮丁
+Ubertip=基础劳工单位。可采集金矿与木材、建造建筑，并能修理，危急时还能抄起武器变成乡勇。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=P
+
+[hmil]
+Name=乡勇
+Ubertip=壮丁临时拿起武器变成的战士，撑不了太久，过后会变回壮丁。|n|n|cffffcc00只能攻击地面单位。|r
 
 [hfoo]
 Name=府兵
 Tip=训练府兵
+Ubertip=近战主力，披甲厚实。可学防御。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=F
 
 [hrif]
 Name=火弩手
 Tip=训练火弩手
+Ubertip=远程射手，擅长对付空中单位。可学长管火枪。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=R
 
 [hkni]
 Name=玄甲军
 Tip=训练玄甲军
+Ubertip=重甲骑兵，冲击力强。可学动物作战训练。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=K
 
 [hmpr]
 Name=和尚
 Tip=训练和尚
+Ubertip=辅助施法单位。初始可施治疗，为受伤的单位恢复生命；并可学驱散魔法与心灵之火。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=P
+Casterupgradename=见习,专家,大师
+Casterupgradetip="- 治疗","- 治疗|n- 驱散魔法","- 治疗|n- 驱散魔法|n- 心灵之火"
 
 [hsor]
 Name=巫女
 Tip=训练巫女
+Ubertip=辅助施法单位。初始可施减速，降低敌方的移动与攻击速度；并可学隐身术与变形术。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=S
+Casterupgradename=见习,专家,大师
+Casterupgradetip="- 减速","- 减速|n- 隐身术","- 减速|n- 隐身术|n- 变形术"
 
 [hspt]
 Name=武僧
 Tip=训练武僧
+Ubertip=专克施法单位的战士。初始具备魔法窃取、魔法免疫与反馈；并可学控制魔法。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=B
 
 [hmtm]
 Name=车弩兵
 Tip=训练车弩兵
+Ubertip=远程攻城器械。对建筑伤害极高，但缓慢且脆弱。可学破片弹与照明弹。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=M
 
 [hgyr]
 Name=飞天
 Tip=建造飞天
+Ubertip=快速飞行器，侦察的好手，也能对付空中单位。|n能看见隐形单位。|n可学飞行器炸弹与高射炮。|n|n|cffffcc00只能攻击空中单位。|r
 Hotkey=F
 
 [hgry]
 Name=神雕
 Tip=训练神雕
+Ubertip=强力飞行生物，背上是掷锤的矮人。可学动物作战训练与风暴战锤。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=G
 
 [hdhw]
 Name=龙鹰
 Tip=训练龙鹰
+Ubertip=敏捷飞行单位，由精灵战士驾驭。具备空中枷锁，可锁住并缴械敌方空中单位。可学动物作战训练与乌云。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=D
 
 [hmtt]
 Name=火炮车
 Tip=建造火炮车
+Ubertip=重装车辆，擅长拆建筑。可学弹幕。|n|n|cffffcc00只能攻击建筑。|r
 Hotkey=E
 
 [hrtt]
 Name=火炮车
 Tip=建造火炮车
+Ubertip=重装车辆，擅长拆建筑。已装弹幕，会向附近的敌方空中单位发射火箭。|n|n|cffffcc00只能攻击建筑。|r
 Hotkey=E
 
 [hwat]
 Name=水晶兽
+Ubertip=主帅召来的水元素。|n|n|cffffcc00只能攻击地面单位。|r
 
-[hpho]
+[hphx]
 Name=火鸦
+Ubertip=妖王召来的凤凰。死后化作凤凰蛋，蛋若不被打破，它就会从中重生。|n|n|cffffcc00可攻击地面与空中单位。|r
 
 [htow]
 Name=村子
 Tip=建造村子
+Ubertip=主基地。训练壮丁，并接收采回的资源。可升级为县治，再升级为州府，以解锁更多建筑与单位。
 Hotkey=H
 
 [hkee]
 Name=县治
 Tip=升级为县治
+Ubertip=升级为县治，以解锁更多建筑与单位。
 Hotkey=U
 
 [hcas]
 Name=州府
 Tip=升级为州府
+Ubertip=升级为州府，以解锁更多建筑与单位。
 Hotkey=U
 
 [hhou]
 Name=茅屋
 Tip=建造茅屋
+Ubertip=提供人口，提高可训练单位的上限。
 Hotkey=F
 
 [hbar]
 Name=兵马司
 Tip=建造兵马司
+Ubertip=主要产兵建筑。训练府兵、火弩手与玄甲军。|n并提供防御、长管火枪与动物作战训练的升级。
 Hotkey=B
 
 [hlum]
 Name=木作坊
 Tip=建造木作坊
+Ubertip=木材的存放点。|n并提供伐木与石工技术的升级。
 Hotkey=L
 
 [hbla]
 Name=锻造坊
 Tip=建造锻造坊
+Ubertip=提供护甲、武器与火药的升级。
 Hotkey=S
 
 [harm]
-Name=匠作坊
-Tip=建造匠作坊
+Name=车坊
+Tip=建造车坊
+Ubertip=生产火炮车、飞天与车弩兵。|n并提供照明弹、破片弹、弹幕、飞行器炸弹与高射炮的升级。
 Hotkey=W
 
 [halt]
 Name=招魂台
 Tip=建造招魂台
+Ubertip=征募英雄，并复活阵亡的英雄。
 Hotkey=A
 
 [hars]
 Name=寺庙
 Tip=建造寺庙
+Ubertip=施法单位产地。训练和尚、巫女与武僧。|n并提供三者的法术升级，以及魔法岗哨。
 Hotkey=R
 
 [hgra]
 Name=兽作营
 Tip=建造兽作营
+Ubertip=训练神雕与龙鹰。|n并提供风暴战锤与乌云的升级。
 Hotkey=G
 
 [hvlt]
 Name=东市
 Tip=建造东市
+Ubertip=开设一座能买到道具的商店。可售道具取决于村子的等级（村子、县治或州府），以及你已建成的建筑。
 Hotkey=V
 
 [hwtw]
 Name=了望台
 Tip=建造了望台
+Ubertip=基础观察塔，本身没有攻击，可升级为箭塔、明镜台或炮台。可学魔法岗哨。
 Hotkey=T
 
 [hgtw]
 Name=箭塔
 Tip=升级为箭塔
+Ubertip=主要防御建筑。可学魔法岗哨。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=G
 
 [hatw]
 Name=明镜台
 Tip=升级为明镜台
+Ubertip=魔法防御塔，对敌方英雄与施法单位尤其有效。具备反馈，每次攻击会烧掉对方的法力，并造成等额额外伤害。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=N
 
 [hctw]
 Name=炮台
 Tip=升级为炮台
+Ubertip=重型防御建筑，对付成群的部队尤其有效。可学魔法岗哨。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=C
+
+
+// ---------- 召唤物 / 船只（原文件缺的 7 段） ----------
+
+[hwt2]
+Name=水晶兽
+Ubertip=主帅召来的水元素，比一级更强。|n|n|cffffcc00只能攻击地面单位。|r
+
+[hwt3]
+Name=水晶兽
+Ubertip=主帅召来的水元素，最强的一级。|n|n|cffffcc00只能攻击地面单位。|r
+
+[hpxe]
+Name=凤凰蛋
+Ubertip=火鸦死后留下的蛋。蛋若没被打破，火鸦会从中重生。
+
+[hshy]
+Name=船坞
+Tip=建造船坞
+Ubertip=船只建造场。可造运输船、护卫舰与战舰。
+
+[hbsh]
+Name=战舰
+Tip=雇佣 |cffffcc00战|r舰
+Ubertip=巨型战舰，擅长消灭敌舰，并从海上炮击岸上的建筑。|n|n|cffffcc00只能攻击地面单位。|r
+Hotkey=B
+
+[hdes]
+Name=护卫舰
+Tip=雇佣 |cffffcc00护|r卫舰
+Ubertip=多用途攻击船，擅长对付空中来袭的单位。|n|n|cffffcc00可攻击地面与空中单位。|r
+Hotkey=F
+
+[hbot]
+Name=运输船
+Tip=雇佣 |cffffcc00运|r输船
+Ubertip=结实的运输船，可以载着单位渡海。
+Hotkey=T

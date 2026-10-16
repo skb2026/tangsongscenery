@@ -1,161 +1,235 @@
 [Obla]
-Name=剑圣
+Name=李逍遥
 Propernames=西门吹雪,令狐冲,张无忌,李逍遥
-Tip=征募 |cffffcc00剑圣|r
+Tip=征募 |cffffcc00李逍遥|r
+Ubertip=李逍遥。来去如风、专取人首级的刺客英雄。
 Uptip=唤醒 |cffffcc00剑圣|r
+Awakentip=唤醒 |cffffcc00剑圣|r
+Revivetip=复活 |cffffcc00剑圣|r
 Hotkey=B
 Description=剑圣。精通御风与剑轮的近战刺客。
+
 
 [Ofar]
 Name=巫王
 Propernames=申公豹
 Tip=征募 |cffffcc00巫王|r
+Ubertip=巫王。通晓千里之外、能唤雷狼的法术英雄。
 Uptip=唤醒 |cffffcc00巫王|r
+Awakentip=唤醒 |cffffcc00巫王|r
+Revivetip=复活 |cffffcc00巫王|r
 Hotkey=F
-Description=巫王。以雷链与千里眼控场的法术英雄。
+Description=巫王。以闪电链与千里眼控场的法术英雄。
+
 
 [Otch]
 Name=魔王
 Propernames=蛟魔王,鹏魔王,牛魔王
 Tip=征募 |cffffcc00魔王|r
+Ubertip=魔王。极耐苦战，倒下还能再起的重装英雄。
 Uptip=唤醒 |cffffcc00魔王|r
+Awakentip=唤醒 |cffffcc00魔王|r
+Revivetip=复活 |cffffcc00魔王|r
 Hotkey=T
-Description=魔王。以裂地波与踏地开路的重装英雄。
+Description=魔王。以震荡波与战争践踏开路的重装英雄。
+
 
 [Oshd]
 Name=蛊王
 Propernames=青毛狮王,蜈蚣精,百眼魔君
 Tip=征募 |cffffcc00蛊王|r
+Ubertip=蛊王。能医能咒，可令全军刀枪不入的诡术英雄。
 Uptip=唤醒 |cffffcc00蛊王|r
+Awakentip=唤醒 |cffffcc00蛊王|r
+Revivetip=复活 |cffffcc00蛊王|r
 Hotkey=H
 Description=蛊王。以巫疗与易形扰乱战局的辅助英雄。
+
 
 [opeo]
 Name=小妖
 Tip=训练小妖
+Ubertip=基础劳工单位。可采集金矿与木材、建造建筑，并能修理。可钻进妖洞，让妖洞获得攻击能力。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=P
 
+
 [ogru]
-Name=魔兵
-Tip=训练魔兵
+Name=斧子手
+Tip=训练斧子手
+Ubertip=兽人步兵，近战主力。可学狂暴力量。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=G
 
+
 [ohun]
-Name=魔猎人
-Tip=训练魔猎人
+Name=飞矛手
+Tip=训练飞矛手
+Ubertip=投矛好手，擅长对付空中单位。可学巨魔再生，并能进阶为狂猎。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=T
 
+
 [otbk]
-Name=狂血魔
-Tip=训练狂血魔
+Name=狂猎
+Tip=训练狂猎
+Ubertip=进阶投矛手，擅长对付空中单位。具备狂暴，打得重，挨打也更疼。可学巨魔再生。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=T
+
 
 [okod]
 Name=饕餮
 Tip=训练饕餮
+Ubertip=巨型战兽，背上坐着一名击鼓的兽人。具备战鼓与吞噬：战鼓提高周围友军的攻击力，吞噬可吃掉一个敌方单位。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=K
+
 
 [orai]
 Name=黑铁火骑兵
 Tip=训练黑铁火骑兵
+Ubertip=高机动狼骑兵，擅长拆建筑。可学诱捕。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=R
 
+
 [oshm]
-Name=女妖
-Tip=训练女妖
+Name=狼妖
+Tip=训练狼妖
+Ubertip=核心施法单位。初始可施净化，驱散法术增益并定住敌人；并可学闪电护盾与嗜血术。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=S
+Casterupgradename=见习,专家,大师
+Casterupgradetip="- 净化","- 净化|n- 闪电护盾","- 净化|n- 闪电护盾|n- 嗜血术"
+
 
 [odoc]
-Name=毒师
-Tip=训练毒师
+Name=巫医
+Tip=训练巫医
+Ubertip=辅助施法单位。初始可施岗哨，放下一个隐形的探测守卫；并可学静止陷阱与治疗杖。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=W
+Casterupgradename=见习,专家,大师
+Casterupgradetip="- 岗哨","- 岗哨|n- 静止陷阱","- 岗哨|n- 静止陷阱|n- 治疗杖"
+
 
 [ospm]
 Name=巫祝
 Tip=训练巫祝
+Ubertip=牛头人法师。可进入虚无状态，躲开物理伤害；灵魂锁链能让几个单位分摊伤害。可学消魔与先祖之魂。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=T
+Casterupgradename=见习,专家,大师
+Casterupgradetip="- 虚无状态|n- 灵魂锁链","- 虚无状态|n- 灵魂锁链|n- 消魔","- 虚无状态|n- 灵魂锁链|n- 消魔|n- 先祖之魂"
+
 
 [otau]
 Name=牛头人
 Tip=训练牛头人
+Ubertip=强力战士。可学粉碎。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=T
+
 
 [otbr]
 Name=蝙蝠
 Tip=训练蝙蝠
+Ubertip=轻型飞行单位，视野极佳，擅长摧毁建筑。具备不稳定化合物，可自爆并重伤附近的敌方空中单位。可学液体炸弹与巨魔再生。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=B
+
 
 [owyv]
 Name=翼魔
 Tip=训练翼魔
+Ubertip=高机动飞行生物，侦察的好手。可学浸毒武器。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=W
+
 
 [ocat]
 Name=火油车
 Tip=训练火油车
+Ubertip=远程攻城器械。对建筑伤害极高，但缓慢且脆弱。可学燃烧之油。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=D
+
 
 [ogre]
 Name=山寨
 Tip=建造山寨
+Ubertip=主基地。训练小妖，并接收采回的资源。可升级为魔军行营，再升级为魔宫，以解锁更多建筑与单位。
 Hotkey=H
 
+
 [ostr]
-Name=妖城
-Tip=升级为妖城
+Name=魔军行营
+Tip=升级为魔军行营
+Ubertip=升级为魔军行营，以解锁更多建筑与单位。
 Hotkey=U
+
 
 [ofrt]
 Name=魔宫
 Tip=升级为魔宫
+Ubertip=升级为魔宫，以解锁更多建筑与单位。
 Hotkey=U
 
+
 [obar]
-Name=魔窟
-Tip=建造魔窟
+Name=黑风山
+Tip=建造黑风山
+Ubertip=主要产兵建筑。训练斧子手、飞矛手与火油车。|n并提供狂暴力量、狂战士升级、巨魔再生与燃烧之油的升级。
 Hotkey=B
+
 
 [oalt]
 Name=镇妖台
 Tip=建造镇妖台
+Ubertip=征募英雄，并复活阵亡的英雄。
 Hotkey=A
+
 
 [ofor]
 Name=炼魔炉
 Tip=建造炼魔炉
+Ubertip=木材的存放点。|n并提供护甲、近战武器、远程武器、加强型防御与尖刺障碍的升级。
 Hotkey=M
 
+
 [obea]
-Name=锁妖洞
-Tip=建造锁妖洞
+Name=魔兽牧场
+Tip=建造魔兽牧场
+Ubertip=训练黑铁火骑兵、饕餮、蝙蝠与翼魔。|n并提供诱捕、浸毒武器、液体炸弹与战鼓的升级。
 Hotkey=E
 
+
 [osld]
-Name=蛊屋
-Tip=建造蛊屋
+Name=蛊池
+Tip=建造蛊池
+Ubertip=施法单位产地。训练狼妖、巫医与巫祝。|n并提供三者的法术升级。
 Hotkey=S
 
+
 [otto]
-Name=魔柱
-Tip=建造魔柱
+Name=牛头柱
+Tip=建造牛头柱
+Ubertip=训练牛头人。|n并提供粉碎的升级。
 Hotkey=T
+
 
 [ovln]
 Name=黑市
 Tip=建造黑市
+Ubertip=开设一座能买到道具的商店。可售道具取决于山寨的等级（山寨、魔军行营或魔宫），以及你已建成的建筑。
 Hotkey=V
+
 
 [otrb]
 Name=妖洞
 Tip=建造妖洞
+Ubertip=提供人口，提高可训练单位的上限。小妖可以钻进去攻击敌人。可学加强型防御。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=O
+
 
 [orbr]
 Name=大妖洞
 Tip=建造大妖洞
+Ubertip=提供人口，提高可训练单位的上限。小妖可以钻进去攻击敌人。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=O
+
 
 [owtw]
 Name=小妖塔
 Tip=建造小妖塔
+Ubertip=防御建筑。可学加强型防御。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=W
+

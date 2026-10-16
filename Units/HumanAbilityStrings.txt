@@ -1,108 +1,290 @@
+// ============ 人族技能 ============
+// 集中定制四英雄技能；其余单位技能见下。
+// 没写的兵种技能整体走官方默认。
+// 铁律：碰了的单位必须把每一格写全，缺一格就 missing。
+
+// ---------- 英雄 / 猛将(山丘之王) ----------
 [AHtb]
 Name=追命矛
-Tip=学习追命矛
-Researchtip="学习 |cffffcc00追命矛|r - [等级 %d]"
+Tip=追命矛
+Ubertip=向目标敌军掷出一杆法术锤，造成 100/210/325 点伤害并震住 5 秒。
 Hotkey=T
+Researchtip="学习 |cffffcc00追命矛|r - [等级 %d]"
+Researchubertip=向目标敌军掷出一杆法术锤，造成 100/210/325 点伤害并震住 5 秒。
 Researchhotkey=T
 
 [AHtc]
 Name=当阳喝
-Tip=学习当阳喝
-Researchtip="学习 |cffffcc00当阳喝|r - [等级 %d]"
+Tip=当阳喝
+Ubertip=一声断喝砸在地上，对附近敌方地面单位造成 65/125/175 点伤害，移动速度降 50%%、攻击速度降 50%%。
 Hotkey=C
+Researchtip="学习 |cffffcc00当阳喝|r - [等级 %d]"
+Researchubertip=一声断喝砸在地上，对附近敌方地面单位造成 65/125/175 点伤害，移动速度降 50%%、攻击速度降 50%%。
 Researchhotkey=C
 
 [AHbh]
 Name=怒撞
-Tip=学习怒撞
+Tip=怒撞
+Ubertip=攻击有 20/30/40% 的概率多打 25 点伤害，并把对手撞懵 2 秒。
 Researchtip="学习 |cffffcc00怒撞|r - [等级 %d]"
+Researchubertip=攻击有 20/30/40% 的概率多打 25 点伤害，并把对手撞懵 2 秒。
 Researchhotkey=B
 
 [AHav]
 Name=万人敌
-Tip=学习万人敌
-Researchtip="学习 |cffffcc00万人敌|r - [等级 %d]"
+Tip=万人敌
+Ubertip=全面提升攻击速度、移动速度和生命上限，并免疫多数法术。|n持续 60 秒。
 Hotkey=V
+Researchtip="学习 |cffffcc00万人敌|r - [等级 %d]"
+Researchubertip=全面提升攻击速度、移动速度和生命上限，并免疫多数法术。|n持续 60 秒。
 Researchhotkey=V
 
+// ---------- 英雄 / 主帅(大法师) ----------
 [AHbz]
 Name=昆仑雪暴
-Tip=学习昆仑雪暴
-Researchtip="学习 |cffffcc00昆仑雪暴|r - [等级 %d]"
+Tip=昆仑雪暴
+Ubertip=连续落下 6/8/10 波暴雪，每波对一片区域造成 30/40/50 点伤害。
 Hotkey=B
+Researchtip="学习 |cffffcc00昆仑雪暴|r - [等级 %d]"
+Researchubertip=连续落下 6/8/10 波暴雪，每波对一片区域造成 30/40/50 点伤害。
 Researchhotkey=B
 
 [AHwe]
 Name=水晶兽
-Tip=学习水晶兽
-Researchtip="学习 |cffffcc00水晶兽|r - [等级 %d]"
+Tip=水晶兽
+Ubertip=召一头水晶兽助战。525 点生命，18-22 点伤害。|n持续 60 秒。|n|n|cffffcc00可攻击地面和空中单位。|r
 Hotkey=W
+Researchtip="学习 |cffffcc00水晶兽|r - [等级 %d]"
+Researchubertip=召一头水晶兽助战。525 点生命，18-22 点伤害。|n持续 60 秒。|n|n|cffffcc00可攻击地面和空中单位。|r
 Researchhotkey=W
 
 [AHab]
 Name=吉星高照
-Tip=学习吉星高照
+Tip=吉星高照
+Ubertip=提高附近友方单位的法力回复速度。
 Researchtip="学习 |cffffcc00吉星高照|r - [等级 %d]"
+Researchubertip=提高附近友方单位的法力回复速度。
 Researchhotkey=R
 
 [AHmt]
 Name=打道回府
-Tip=学习打道回府
-Researchtip="学习 |cffffcc00打道回府|r - [等级 %d]"
+Tip=打道回府
+Ubertip=把包括主帅在内 24 个附近的单位，一起送到一个友方地面单位或建筑身旁。
 Hotkey=T
+Researchtip="学习 |cffffcc00打道回府|r - [等级 %d]"
+Researchubertip=把包括主帅在内 24 个附近的单位，一起送到一个友方地面单位或建筑身旁。
 Researchhotkey=T
 
+// ---------- 英雄 / 军师(圣骑士) ----------
 [AHhb]
 Name=雨露甘霖
-Tip=学习雨露甘霖
-Researchtip="学习 |cffffcc00雨露甘霖|r - [等级 %d]"
+Tip=雨露甘霖
+Ubertip=召一道甘霖，为友方单位恢复 200/400/600 点生命。
 Hotkey=T
+Researchtip="学习 |cffffcc00雨露甘霖|r - [等级 %d]"
+Researchubertip=召一道甘霖，为友方单位恢复 200/400/600 点生命。
 Researchhotkey=T
 
 [AHds]
 Name=单刀赴会
-Tip=学习单刀赴会
-Researchtip="学习 |cffffcc00单刀赴会|r - [等级 %d]"
+Tip=单刀赴会
+Ubertip=一层无法穿透的护罩护住这个单位，15/25/35 秒内不受任何伤害和法术影响。
 Hotkey=D
+Researchtip="学习 |cffffcc00单刀赴会|r - [等级 %d]"
+Researchubertip=一层无法穿透的护罩护住这个单位，15/25/35 秒内不受任何伤害和法术影响。
 Researchhotkey=D
 
 [AHad]
-Name=孙刘同盟
-Tip=学习孙刘同盟
-Researchtip="学习 |cffffcc00孙刘同盟|r - [等级 %d]"
+Name=同盟
+Tip=同盟
+Ubertip=附近友方单位护甲提高 1.5/3/4.5 点。
+Researchtip="学习 |cffffcc00同盟|r - [等级 %d]"
+Researchubertip=附近友方单位护甲提高 1.5/3/4.5 点。
 Researchhotkey=V
 
 [AHre]
-Name=还魂
-Tip=学习还魂
-Researchtip="学习 |cffffcc00还魂|r - [等级 %d]"
+Name=起死回生
+Tip=起死回生
+Ubertip=让附近 6 具友方尸体重新站起来。
 Hotkey=R
+Researchtip="学习 |cffffcc00起死回生|r - [等级 %d]"
+Researchubertip=让附近 6 具友方尸体重新站起来。
 Researchhotkey=R
 
+// ---------- 英雄 / 妖王(血法师) ----------
 [AHfs]
 Name=三昧真火
-Tip=学习三昧真火
-Researchtip="学习 |cffffcc00三昧真火|r - [等级 %d]"
+Tip=三昧真火
+Ubertip=召一根火柱，每秒烧地面单位 45 点，连烧 3 秒；火柱熄灭后，火中的单位仍会持续受到少量伤害。
 Hotkey=F
+Researchtip="学习 |cffffcc00三昧真火|r - [等级 %d]"
+Researchubertip=召一根火柱，每秒烧地面单位 45 点，连烧 3 秒；火柱熄灭后，火中的单位仍会持续受到少量伤害。
 Researchhotkey=F
 
 [AHbn]
 Name=天罡莲台
-Tip=学习天罡莲台
-Researchtip="学习 |cffffcc00天罡莲台|r - [等级 %d]"
+Tip=天罡莲台
+Ubertip=把一个非机械单位托成虚体，移动速度降 50%%，持续 12/15/18 秒。虚体无法攻击，但可以施法，且部分法术打在它身上效果更强。
 Hotkey=B
+Researchtip="学习 |cffffcc00天罡莲台|r - [等级 %d]"
+Researchubertip=把一个非机械单位托成虚体，移动速度降 50%%，持续 12/15/18 秒。虚体无法攻击，但可以施法，且部分法术打在它身上效果更强。
 Researchhotkey=B
 
 [AHdr]
 Name=摄元
-Tip=学习摄元
-Researchtip="学习 |cffffcc00摄元|r - [等级 %d]"
+Tip=摄元
+Ubertip=在妖王和目标之间转移法力，每秒从敌军抽取 15/30/45 点，或每秒输给友军 30/60/90 点。|n|n可把妖王的法力抽到上限之上，但不用掉会很快流失。|n持续 6 秒。
 Hotkey=N
+Researchtip="学习 |cffffcc00摄元|r - [等级 %d]"
+Researchubertip=在妖王和目标之间转移法力，每秒从敌军抽取 15/30/45 点，或每秒输给友军 30/60/90 点。|n|n可把妖王的法力抽到上限之上，但不用掉会很快流失。|n持续 6 秒。
 Researchhotkey=N
 
 [AHpx]
 Name=火鸦
-Tip=学习火鸦
-Researchtip="学习 |cffffcc00火鸦|r - [等级 %d]"
+Tip=火鸦
+Ubertip=召一只火鸦。它烧得太旺，会同时伤到自己和附近敌军。免疫法术、抗性皮肤。火鸦死后留下一颗蛋，蛋中会再孵出一只。|n|n|cffffcc00可攻击地面和空中单位。|r
 Hotkey=X
+Researchtip="学习 |cffffcc00火鸦|r - [等级 %d]"
+Researchubertip=召一只火鸦。它烧得太旺，会同时伤到自己和附近敌军。免疫法术、抗性皮肤。火鸦死后留下一颗蛋，蛋中会再孵出一只。|n|n|cffffcc00可攻击地面和空中单位。|r
 Researchhotkey=X
+
+// ---------- 单位技能 ----------
+[Amls]
+Name=空中封锁
+Tip=空中封锁
+Ubertip=用法术锁住一个敌方空中单位，使它 40 秒内不能移动也不能攻击，每秒受到 30 点伤害。
+Hotkey=E
+
+[AHta]
+Name=照亮
+Tip=照亮
+Ubertip=照亮一片地图区域。|n能看见隐形单位。|n持续 15 秒。
+Hotkey=R
+
+[Afbk]
+Name=吸取法力
+Tip=吸取法力
+Ubertip=武僧的攻击每次烧掉目标 20 点法力，烧掉的法力转成额外伤害。
+
+[Afbt]
+Name=焚魔
+Tip=焚魔
+Ubertip=明镜台的攻击每次烧掉目标 24 点法力，烧掉的法力转成额外伤害。|n|n对召唤单位额外造成 20 点伤害。
+
+[Acmg]
+Name=控魔
+Tip=控魔
+Ubertip=夺取一个敌方召唤单位的控制权，消耗的法力等于该单位当前生命值的 45%%。
+Hotkey=C
+
+[Aflk]
+Name=对空火炮
+Tip=对空火炮
+Ubertip=用大炮打空中单位，造成范围伤害。
+
+[Afsh]
+Name=散弹
+Tip=散弹
+Ubertip=换用霰散弹，提高对无甲和中甲单位的伤害。
+
+[Aroc]
+Name=对空火箭
+Tip=对空火箭
+Ubertip=向附近的敌方空中单位发射火箭，每发造成 13-14 点伤害。
+
+[Asps]
+Name=借花献佛
+Tip=借花献佛
+Ubertip=从敌军身上偷一个增益法术安到附近友军身上，或把友军身上的减益法术转嫁给附近敌军。
+Hotkey=T
+
+[Aclf]
+Name=雾海
+Tip=雾海
+Ubertip=对敌方远程建筑施法，让它打不了人。|n持续 30 秒。
+Hotkey=C
+
+[Apxf]
+Name=烈焰
+Tip=烈焰
+Ubertip=往下喷火，把附近的敌人点着。
+
+[Agyb]
+Name=对地轰炸
+Tip=对地轰炸
+Ubertip=让飞天可以攻击地面单位。
+
+[Asth]
+Name=风暴锤
+Tip=风暴锤
+Ubertip=神雕的攻击能同时打到多个单位。
+
+[Agyv]
+Name=真视
+Tip=真视
+Ubertip=看见附近的隐形单位。
+
+[Adef]
+Name=格挡
+Tip=格挡
+Ubertip=开启后有 30% 的概率把穿刺攻击弹回发射者身上，未弹回的伤害只受 50%%。开启时移动速度降到正常的 30%%。
+Hotkey=D
+
+[Afla]
+Name=照明弹
+Tip=照明弹
+Ubertip=朝目标点打一颗照明弹，照亮该区域 15 秒。|n能看见隐形单位。
+Hotkey=F
+
+[Adts]
+Name=魔视
+Tip=魔视
+Ubertip=看见附近的隐形单位。
+
+[Ainf]
+Name=激励
+Tip=激励
+Ubertip=提高目标友方单位 10%% 的伤害和 5 点护甲。|n持续 60 秒。
+Hotkey=F
+
+[Adis]
+Name=驱散
+Tip=驱散
+Ubertip=驱散目标身上的法术效果。（官方这段本身没有介绍文字，文案是兜底。）
+Hotkey=D
+
+[Ahea]
+Name=治疗
+Tip=治疗
+Ubertip=给一个友方非机械单位恢复 25 点生命。
+Hotkey=E
+
+[Aslo]
+Name=减速
+Tip=减速
+Ubertip=降低目标敌方单位 25%% 的攻击速度和 60%% 的移动速度。|n持续 60 秒。
+Hotkey=W
+
+[Aivs]
+Name=隐身
+Tip=隐身
+Ubertip=让一个单位隐形。攻击、使用技能或施法会让他现形。|n持续 120 秒。
+Hotkey=I
+
+[Aply]
+Name=变羊
+Tip=变羊
+Ubertip=把目标敌方单位变成一只羊。生命值和护甲不变，但不能攻击。|n不能对英雄使用。|n持续 60 秒。
+Hotkey=O
+
+[Amil]
+Name=保卫家园
+Tip=保卫家园
+Ubertip=跑到最近的村子、县治或州府去领兵器，壮丁就此变成乡勇。|n持续 45 秒。
+Hotkey=C
+
+[Amic]
+Name=保卫家园
+Tip=保卫家园
+Ubertip=把附近所有壮丁召到主基，转成乡勇。|n持续 45 秒。
+Hotkey=C

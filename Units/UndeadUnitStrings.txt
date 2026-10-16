@@ -1,7 +1,8 @@
 [Udea]
 Name=鬼王
-Propernames=钟馗,孙悟空
+Propernames=钟馗,孙悟菜,孙悟茶,孙悟甜,孙悟电,孙悟定,孙悟天
 Tip=征募 |cffffcc00鬼王|r
+Ubertip=鬼王。以摄命与尸气统御亡者的骑兵英雄。
 Uptip=唤醒 |cffffcc00鬼王|r
 Hotkey=D
 Description=鬼王。以摄命与尸气统御亡者的骑兵英雄。
@@ -10,6 +11,7 @@ Description=鬼王。以摄命与尸气统御亡者的骑兵英雄。
 Name=鬼使
 Propernames=白骨精,崔判官
 Tip=征募 |cffffcc00鬼使|r
+Ubertip=鬼使。以寒霜与献魂主事的法术英雄。
 Uptip=唤醒 |cffffcc00鬼使|r
 Hotkey=L
 Description=鬼使。以寒霜与献魂主事的法术英雄。
@@ -18,6 +20,7 @@ Description=鬼使。以寒霜与献魂主事的法术英雄。
 Name=鬼怪
 Propernames=黄风大王,大鹏金翅鸟
 Tip=征募 |cffffcc00鬼怪|r
+Ubertip=鬼怪。以迷魂与业火压制的控场英雄。
 Uptip=唤醒 |cffffcc00鬼怪|r
 Hotkey=E
 Description=鬼怪。以迷魂与业火压制的控场英雄。
@@ -26,6 +29,7 @@ Description=鬼怪。以迷魂与业火压制的控场英雄。
 Name=鬼精
 Propernames=蟑螂大王
 Tip=征募 |cffffcc00鬼精|r
+Ubertip=鬼精。以地刺与飞蝗守土的重装英雄。
 Uptip=唤醒 |cffffcc00鬼精|r
 Hotkey=C
 Description=鬼精。以地刺与飞蝗守土的重装英雄。
@@ -33,130 +37,156 @@ Description=鬼精。以地刺与飞蝗守土的重装英雄。
 [uaco]
 Name=小鬼
 Tip=训练小鬼
+Ubertip=基础劳工。可召唤建筑、采金，并能修复。可在奈何桥献祭为无形阴魂。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=C
 
 [ugho]
 Name=饿鬼
 Tip=训练饿鬼
+Ubertip=基础战斗单位兼伐木工。可学啃食与狂暴。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=G
 
 [ucry]
 Name=大蜘蛛
 Tip=训练大蜘蛛
+Ubertip=远程支援。可学蛛网与钻地。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=F
 
 [ugar]
 Name=飞天夜叉
 Tip=训练飞天夜叉
+Ubertip=飞行攻击单位。可学石像形态。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=A
 
 [unec]
 Name=马面
 Tip=训练马面
+Ubertip=核心施法单位。可就地对尸体施起死回生，并可学邪恶狂热与残废。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=N
 
 [uban]
 Name=女鬼
 Tip=训练女鬼
+Ubertip=辅助施法单位。初始可施诅咒，使敌军时有失手；并可学反魔法外壳与占据。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=B
 
 [uabo]
 Name=大尸鬼
 Tip=训练大尸鬼
+Ubertip=重型近战单位。可学瘟疫之云与啃食。|n|n|cffffcc00只能攻击地面单位。|r
 Hotkey=A
 
 [umtw]
 Name=绞肉车
 Tip=训练绞肉车
+Ubertip=储尸器械，兼作远程攻城。对建筑伤害极高，但缓慢且脆弱。可学瘟疫之云。|n|n|cffffcc00可攻击地面单位与树木。|r
 Hotkey=M
 
 [uobs]
 Name=魂棺
 Tip=训练魂棺
+Ubertip=坚固石像，可为部队补充生命与法力。初始可施灵魂之触与凋零之精，并可学毁灭者形态。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=O
 
 [ubsp]
 Name=飞魂棺
 Tip=训练飞魂棺
+Ubertip=大型飞行单位，需吞噬魔法维持法力。擅长克制敌方法师与成群地面部队。初始具备法术免疫、吞噬魔法、吸取法力与湮灭之球。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=T
 
 [ufro]
 Name=白骨龙
 Tip=训练白骨龙
+Ubertip=飞行重击单位。可学冰霜吐息。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=F
 
 [unpl]
 Name=城隍庙
 Tip=建造城隍庙
+Ubertip=鬼族主殿。训练小鬼，收纳饿鬼砍来的木料。可依次升级为幽冥界与阎罗殿，解锁更多建筑与兵种。
 Hotkey=N
 
 [unp1]
 Name=幽冥界
 Tip=升级为幽冥界
+Ubertip=主殿升级。解锁更多建筑与兵种。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=U
 
 [unp2]
 Name=阎罗殿
 Tip=升级为阎罗殿
+Ubertip=主殿终级。解锁全部建筑与兵种。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=U
 
 [uzig]
 Name=坟冢
 Tip=建造坟冢
+Ubertip=提供人口。可升级为防御建筑，能攻击地面与空中单位。
 Hotkey=Z
 
 [uzg1]
 Name=安魂塔
 Tip=升级为安魂塔
+Ubertip=升级为防御建筑。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=T
 
 [uzg2]
 Name=安冥塔
 Tip=升级为安冥塔
+Ubertip=升级为防御建筑，带寒霜伤害，可减慢敌军。|n|n|cffffcc00可攻击地面与空中单位。|r
 Hotkey=N
 
 [uaod]
 Name=生死簿
 Tip=建造生死簿
+Ubertip=召唤英雄，并可复活阵亡的英雄。
 Hotkey=A
 
 [usep]
 Name=鬼门关
 Tip=建造鬼门关
+Ubertip=主力兵营。训练饿鬼、大蜘蛛、飞天夜叉，并提供狂暴、啃食、石像形态、蛛网、钻地等升级。
 Hotkey=C
 
 [uslh]
 Name=刀山火海
 Tip=建造刀山火海
+Ubertip=出产大尸鬼、魂棺与绞肉车，并提供瘟疫之云与毁灭者形态升级。
 Hotkey=H
 
 [ugrv]
 Name=化骨池
 Tip=建造化骨池
+Ubertip=地府的兵工厂。利用熔岩铜汁与白骨熔炼，升级阴兵的鬼爪武器与白骨重铠。同时源源不断积攒死尸。
 Hotkey=V
 Description=地府的兵工厂。利用熔岩铜汁与白骨熔炼，升级阴兵的鬼爪武器与白骨重铠。同时源源不断积攒死尸。
 
 [utod]
 Name=判官司
 Tip=建造判官司
+Ubertip=法术营。训练马面与女鬼，并提供二者的升级，以及骸骨延寿与骸骨精通。
 Hotkey=T
 
 [utom]
 Name=鬼市
 Tip=建造鬼市
+Ubertip=开设可买物品的鬼市。售卖内容随主殿等级与已有建筑而变。
 Hotkey=R
 
 [usap]
 Name=奈何桥
 Tip=建造奈何桥
+Ubertip=可将小鬼献祭为无形阴魂，能窥破隐形，但无法攻击。
 Hotkey=S
 
 [ubon]
 Name=龙冢
 Tip=建造龙冢
+Ubertip=出产白骨龙，并提供冰霜吐息升级。
 Hotkey=B
 
 [ugol]
 Name=尸金矿
 Tip=建造尸金矿
+Ubertip=占据金矿，使小鬼得以采金。对金矿使用即可将其污染。
 Hotkey=G
